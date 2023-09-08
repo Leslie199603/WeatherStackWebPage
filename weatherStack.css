@@ -1,0 +1,555 @@
+body{
+    margin: 0;
+}
+.upperPage{
+    /*border: 1px solid black;*/
+    max-width: 100vw;
+    height: 614px;
+    box-sizing: border-box;
+    position: relative;
+    top:0;
+    right: 0;
+}
+.upperPhoto{
+    height: 614px;
+    width: 100vw;
+    background: url("mountains.svg");
+    background-size: cover;
+    background-position: center;
+    background-color: #16394c;
+    display: flex;
+}
+.navigationBar{
+    /*border: 1px solid yellow;*/
+    width: 1330px;
+    height: 71px;
+    position:absolute;
+    top: 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    right: 45px;
+}
+.logo img{
+    width: 212px;
+    margin: 14px 0 0 15px;
+    /*border: 1px solid red;*/
+}
+.icons{
+    /*border: 1px purple solid;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+    color: white;
+    font-size: 13px;
+}
+.greenStatus{
+    width: 10px;
+    height: 10px;
+    background-color: lawngreen;
+    border-radius: 100%;
+    margin-right: 2px;
+}
+.status{
+    /*border: 1px solid lightcoral;*/
+    display: flex;
+    align-items: center;
+}
+.login{
+    width: 60px;
+    height: 35px;
+    background:rgba(255, 255, 255, .15);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signUpForFree{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orangered;
+}
+.middleContent{
+    width: 1140px;
+    height: 314px;
+    /*border: 1px solid chartreuse;*/
+    position: absolute;
+    top: 140px;
+    right: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.info{
+    /*border: 1px solid peru;*/
+    color: white;
+}
+.info1{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.info div:nth-child(3){
+    font-size: 17px;
+    margin-top: 25px;
+}
+.smallLogo{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+.smallLogo img{
+    margin-top: 3px;
+    margin-left: 2px;
+}
+.trustSection{
+    /*border: 1px solid greenyellow;*/
+    display: flex;
+    width: 380px;
+    height: 40px;
+    align-items: center;
+    background-color: #608094;
+    border-radius: 10px;
+    /*margin-left: 10px;*/
+}
+.clickButton{
+    width: 228px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 10px;
+    /*margin-left: 10px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.startUpSection{
+    font-size: 17px;
+    display: flex;
+    /*border: 1px solid royalblue;*/
+    position: absolute;
+    margin-top: 20px;
+}
+.freeSection{
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    /*border: #608094 solid 1px;*/
+}
+.weatherSummary{
+    width: 492px;
+    height: 292px;
+    border: 4px solid #608094;
+    background-color: #16394c;
+    position: relative;
+    /*top: 10px;*/
+    /*right: 10px;*/
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titleLocation{
+    padding-top: 15px;
+    /*border: 1px solid brown;*/
+}
+.mainContent{
+    /*border: 1px solid yellow;*/
+    width: 490px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around ;
+    position: relative;
+}
+.weatherLogo{
+    /*border: 1px solid green;*/
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.weatherLogo img{
+    width: 80px;
+}
+.mainTemperature{
+    /*border: 1px solid purple;*/
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+}
+.detailInfo{
+    display: flex;
+    align-items: center;
+}
+.weeklyReport{
+    display: flex;
+    width: 490px;
+    /*border: 1px solid aquamarine;*/
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.SAT{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.customerLogo img {
+    width:130px;
+}
+.customerLogo{
+    display: flex;
+    background-color: #eff2f5;
+    width: 1140px;
+    height: 136px;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.C img{
+    height: 50px;
+}
+.D img{
+    height: 40px;
+}
+.F img{
+    height: 60px;
+}
+.logoContainer{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-color:#eff2f5;
+}
+.introductionContainer{
+    width:100vw;
+    height: 247px;
+    /*border: 1px solid black ;*/
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+.introduction{
+    width: 1140px;
+    height: 210px;
+    padding-bottom: 19px;
+    padding-top: 18px;
+    /*border: 1px solid peru ;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eff2f5;
+}
+.introduction img{
+    width: 20px;
+}
+.globalWeatherDataContainer{
+    width: 100vw;
+    height: 347px;
+    padding-top: 25px;
+    padding-bottom: 65px;
+    /*border: 1px solid palegreen;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.globalWeatherData{
+    width: 1140px;
+    height: 347px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 126px;
+    margin-left: 126px;
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+
+}
+.wordingData{
+    width: 440px;
+    height: 334px;
+    /*border: 1px solid purple;*/
+}
+.globalImg{
+    width: 635px;
+    height: 347px;
+    /*border: 1px solid green;*/
+}
+.wordingTitle{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.wordingContent{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.wordingItems{
+    display: flex;
+    flex-direction: column;
+
+}
+.realTime{
+    /*border: 1px solid yellow;*/
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+
+}
+.realTime img{
+    width: 30px;
+    height: 30px;
+}
+.realTime div{
+    margin-left: 10px;
+}
+.lowerPage{
+    width: 100vw;
+    height: 380px;
+    padding: 45px 0 50px 0;
+    /*border: 1px solid orchid;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lowerPageInfoContainer{
+    height: 380px;
+    padding: 0 15px 15px 15px;
+    /*border: 1px solid yellow;*/
+}
+.titleOfLowerPage > .title1{
+    font-size: 25px;
+    font-weight: bold;
+    /*border: 1px solid orangered;*/
+    display: flex;
+    justify-content: center;
+}
+.titleOfLowerPage > .title2{
+    font-size: 20px;
+    /*border: #16394c 1px solid;*/
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.lowerPageImg{
+    /*border: 1px solid palegreen;*/
+    width: 1140px;
+    height: 230px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.daimler{
+    background-color: #263e6a;
+    width: 250px;
+    height: 100px;
+    border-radius:5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 10px 0;
+}
+.daimler img{
+    height: 20px;
+}
+.deloitte{
+    background-color: #eef2f5;
+    width: 250px;
+    height: 100px;
+    border-radius:5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 10px 0;
+}
+.deloitte img{
+    height: 30px;
+}
+.ericsson{
+    background-color: #01275b;
+    width: 135px;
+    height: 100px;
+    border-radius:5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 10px 0;
+}
+.ericsson img{
+    height: 55px;
+}
+.microsoft{
+    background-color: #eef2f5;
+    width: 250px;
+    height: 100px;
+    border-radius:5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 10px 0;
+}
+.microsoft img{
+    height: 40px;
+}
+.schneider{
+    background-color: #009e4d;
+    width: 200px;
+    height: 100px;
+    border-radius:5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 10px 0;
+}
+.schneider img{
+    height: 45px;
+}
+.warnerbros{
+    background-color: #027ac2;
+    width: 190px;
+    height: 100px;
+    border-radius:5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 10px 0;
+}
+.warnerbros img{
+    height: 65px;
+}
+.wawa{
+    background-color: #ee2e25;
+    width: 250px;
+    height: 100px;
+    border-radius:5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 10px 0;
+}
+.wawa img{
+    height: 55px;
+}
+.canda{
+    background-color: #eef2f5;
+    width: 135px;
+    height: 100px;
+    border-radius:5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 10px 0;
+}
+.canda img{
+    height: 55px;
+}
+.mckinsey{
+    background-color: #23477f;
+    width: 260px;
+    height: 100px;
+    border-radius:5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 10px 0;
+}
+.mckinsey img{
+    height: 50px;
+}
+.rimowa{
+    background-color: #eef2f5;
+    width: 250px;
+    height: 100px;
+    border-radius:5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 10px 0;
+}
+.rimowa img{
+    height: 50px;
+}
+.bottomPage{
+    /*border: 1px solid red;*/
+    width: 100vw;
+    height: 21px;
+    padding: 45px 0 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: #eef2f5;
+}
+.buttonOfDownload{
+    padding: 17px 15px 17px 15px;
+    background-color: #f47b21;
+    border-radius: 10px;
+}
+.footerPage{
+    height: 281px;
+    width: 100vw;
+    /*border: 1px solid blue;*/
+    padding: 50px 0 50px 0;
+    background-color: #283f59;
+}
+.iconContainer{
+    /*border: 1px solid orchid;*/
+    height: 160px;
+    width: 1140px;
+    padding: 0 15px 0 15px;
+    margin: 0 126.5px 0 126.5px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.iconContainer img{
+    opacity: 50%;
+    width: 197px;
+    height: 35px;
+}
+.socialNetworkIcons{
+    /*border: 1px solid cornsilk;*/
+    display: flex;
+    width: 200px;
+    height: 25px;
+    justify-content:space-around;
+    align-items: center;
+    margin-right: 0;
+}
+.socialNetworkIcons div img{
+    width: 25px;
+    height: 25px;
+    opacity: 100;
+}
+.contentOfFooterPage > .mainTitle{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.contentOfFooterPage > div{
+    margin-top: 10px;
+}
+.finialBottomOfThePage{
+    color: white;
+    padding: 0 15px 0 15px;
+    margin: 0 126.5px 0 126.5px;
+    text-align: center;
+    margin-top: 100px;
+    /*border: lightcoral 1px solid;*/
+}
